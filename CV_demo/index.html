@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>Celia's resume</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<link rel="icon" type="image/x-icon" href="images/icons8-set-as-resume-16 (1).ico" />
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/component.css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<!-- Start bg -->
+		<div class="bg"></div>
+		<!-- End bg -->
+
+		<!-- Strat header -->
+		<header class="header js-header">
+			<div class="container">
+				<div class="navbar navbar--collapse u-clearfix">
+					<div class="social-bar navbar__social-bar">
+						<a href="#" class="icon-btn">
+							<i class="icon icon-facebook-official"></i>
+						</a>
+						<a href="#" class="icon-btn">
+							<i class="icon icon-linkedin"></i>
+						</a>
+						<a href="#" class="icon-btn">
+							<i class="icon-github-circled"></i>
+						</a>
+					</div>
+					<div class="nav navbar__nav">
+						<a href="#popup-overlay" class="menu-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+						</a>
+						<div id="popup-overlay" class="popup-menu">
+							<div class="container">
+								<div class="u-clearfix">
+									<a href="#" class="popup-menu__close">
+										<span></span>
+										<span></span>
+									</a>
+								</div>
+								<ul>
+									<li><a href="#about" class="popup-menu__item">ABOUT</a></li>
+									<li><a href="#skill" class="popup-menu__item">SKILL</a></li>
+									<li><a href="#experience" class="popup-menu__item">EXPERIENCE</a></li>
+									<li><a href="#work" class="popup-menu__item">MY WORK</a></li>
+									<li><a href="#contact" class="popup-menu__item">CONTACT</a></li>
+								</ul>
+								
+							</div>
+								
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- End header -->
+
+		<!-- Strat main -->
+		<section class="main">
+
+			<!-- Start about -->
+			<div id="about" class="hero">
+				<img class="graphic_001 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-blue.svg" alt="">
+				<img class="graphic_002" data-stellar-ratio="1.5"  src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+				<div class="hero__bg"></div>
+				<div class="container">
+					<div class="hero__content wow bounceInLeft">
+						<h1 class="hero__heading">HELLO<br>I'M CELIA</h1>
+						<!-- <a href="#" class="btn btn--primary btn--md">Contact</a> -->
+					</div>
+				</div>
+			</div>
+			<!-- End about -->
+	
+			<!-- Start quote -->
+			<div class="quote bg-color-white lean-bg--top lean-bg--no-margin">
+				<img class="graphic_003 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-purple.svg" alt="">
+				<img class="graphic_004 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-push-3">
+							<div class="quote__content">
+								<div class="quote__icon">
+									<i class="icon-quote-right"></i>
+								</div>
+								<p class="quote__text">- 投入IT的小小人資 -<hr>
+							起初對於程序語法只能「大眼瞪小眼，互看不順眼」到慢慢摸索和自我學習，並利用所學知識寫出一份“個人設計” 的網站式履歷。這份成就感使我在前端自學過程中，找到了開發的興趣與熱情。希望能寫出更多互動有趣、有設計美感的介面，成為專業的 Front-End Engineer!</p>
+								<div class="quote__name"><span>You’ve got to find what you love. - </span>Steve Jobs</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+			<!-- End quote -->
+
+			<!-- Start skill -->
+			<div id="skill" class="skill bg-color-white lean-bg--bottom">
+				<img class="graphic_005" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-md.svg" alt="">
+				<img class="graphic_006" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<div class="container">
+					<h2 class="subtitle u-text-center wow bounceInUp">SKILL</h2>
+					<div class="skill-group">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">前端</h4>
+										<p class="skill-card__text">
+											<li>HTML</li>
+											<li>CSS</li>
+											<li>jQuery</li>
+										</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/html-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="0.5s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">後端</h4>
+										<p class="skill-card__text">
+											<li>Python</li>
+											<li>爬蟲 : selenium/requests庫</li>
+											<li><a  class="skill__a" href="">Project : Fb_Crawler</a></li>
+													
+										</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/py-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="1s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">數據庫</h4>
+										<p class="skill-card__text">
+											<li>SQLite</li>
+											<li>MySQL</li>
+										</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/mysql-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="skill-card wow bounceInUp" data-wow-delay="1.5s">
+									<div class="skill-card__inner">
+										<h4 class="skill-card__title">工具</h4>
+										<p class="skill-card__text">
+											<li>Git</li>
+											<li>Sketch</li>
+										</p>
+									</div>
+									<div class="skill-card__icon">
+										<img class="image" src="images/skill_icon/git-icon.png" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End skill -->
+
+			<!-- Start experience -->
+			<div id="experience" class="experience">
+				<img class="graphic_007 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-lg.svg" alt="">
+				<img class="graphic_008" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<img class="graphic_009" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+				<img class="graphic_010 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt="">
+				<div class="container">
+					<h2 class="subtitle u-text-center color-white wow bounceInUp">EXPERIENCE</h2>
+					<div class="timeline-group">
+						<div class="timeline"></div>
+						<div class="timeline-cards">
+							<div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<p class="timeline-card__text">
+										<h3 class="experience__title">人資專員(HR Specialist)</h3>
+										<h6>
+											<b>Ark Co.,Ltd.</b>
+											（2019年9月~至今）
+										</h6>
+										<p>工作內容：</p>
+												<li>執行人員招募甄選活動，以解決內部人力需求。</li>
+												<li>配合公司發展執行相關招募策略與計畫</li>
+												<li>招募任用作業，維護內部人力資源相關紀錄等。</li>
+												<li>各項人力訓練發展專案之規劃與執行</li>
+								</div>
+							</div>
+							<div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<p class="timeline-card__text">
+										<h3 class="experience__title">遠距實習-技術寫作(Technical Writer)</h3>
+										<h6>
+											<b>Happy Coding</b>
+											（2020年1月~5月）
+										</h6>
+										<p>負責專案：Python</p>
+											<li>Python學習筆記</li>
+											<li>Python模塊介紹</li>	
+											<li>FB Crawler:爬取FB粉絲團,繪製數據分析圖</li>
+								</div>
+							</div>
+							<div class="timeline-cards__row">
+								<div class="timeline-card wow bounceInUp">
+									<p class="timeline-card__text">
+										<h3 class="experience__title">學生時期</h3>
+										<h6>
+											<b>國立臺灣海洋大學航管系</b>（2015 年 9 月～ 畢業）
+										</h6>
+										<p>學生實習：</p>
+												<li>中國信託-人資助理</li>
+												<li>海洋大學文化研究所-撰寫系所專案核銷計畫</li>	
+									</p>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+			<!-- End experience -->
+
+			<!-- Start work -->
+			<div id="work" class="work bg-color-white lean-bg--top lean-bg--bottom">
+				<img class="graphic_011" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-lg.svg" alt="">
+				<img class="graphic_012" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<img class="graphic_013" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-blue.svg" alt="">
+				<img class="graphic_014 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-md.svg" alt="">
+				<img class="graphic_015" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<img class="graphic_016" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-md.svg" alt="">
+				<img class="graphic_017" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt="">
+				<img class="graphic_018" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+				<img class="graphic_019" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<div class="container">
+					<h2 class="subtitle u-text-center wow bounceInUp">MY WORKS</h2>
+					<div class="work-list">
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-5">
+									<div class="imgbox">
+										<a href="images/works/work1.jpg" data-fancybox="group">
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work1.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item__text work-item__text--right">
+										<h3 class="work-item__title work-item__title--right">Show Receipe</h3>
+										<h5>網頁動畫製作</h5>
+										<p class="work-item__intro">
+											設計理念-Take a shot for my handmade.<br>
+											利用相機圖像加上動畫影格做出攝影效果,加上滑入增加互動感,並利用連結即可點閱製作食譜。
+										</p>
+										<p>技術:CSS key frames</p>
+										<a href="https://celia-code.github.io/Show-receipe/" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-1">
+									<div class="imgbox">
+										<a href="images/works/work2.png" data-fancybox="group">
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work2.png');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-push-1">
+									<div class="work-item__text">
+										<h3 class="work-item__title work-item__title--left">Recruitment Form</h3>
+										<h5>招聘表單製作</h5>
+										<p class="work-item__intro">
+											設計理念-「將所學結合實務,應用於工作上」
+											<br>
+											利用HTML表單標籤及bootstrap格線樣式做美化。並使用jQuery創造表單微互動的設計。
+										</p>
+										<p>技術:HTML表單標籤/CSS/jQuery
+										</p>
+										<a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-6">
+									<div class="imgbox">
+										<a href="images/works/work3.PNG" data-fancybox="group">
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/work3.PNG');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item__text">
+										<h3 class="work-item__title work-item__title--right">Workout Plan</h3>
+										<h5>「健身也健心」</h5>
+										<p class="work-item__intro">
+											設計理念-在網站中可選取想鍛鍊的部位，將會自動導向Youtube上的Workout Video。工作之餘不妨在每日留下30分鐘時間,活動一下:)
+											<br>
+											使用jQuery插件(Fancybox3)做出滑塊與圖片燈箱的效果。並使用CSS偽元素設計點擊樣式以增加互動感。
+										</p>
+										<p>技術:HTML/CSS/jQuery
+										</p>
+										<a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-1">
+									<div class="imgbox">
+										<a href="images/works/work004.jpg" data-fancybox="group">
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/thumbnail/work004_thumb.jpg');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-push-1">
+									<div class="work-item__text">
+										<h3 class="work-item__title">Work title for good design stuff</h3>
+										<p class="work-item__intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quisquam reprehenderit perspiciatis minima unde rerum magnam, sit tenetur odio? Est!</p>
+										<a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div> -->
+						<!-- <div class="work-item wow fadeInUp">
+							<div class="row">
+								<div class="col-sm-6 col-sm-push-5">
+									<div class="imgbox">
+										<a href="images/works/work005.jpg" data-fancybox="group">
+											<div class="imgbox__inner imgbox__inner--4-3">
+												<div class="image" style="background-image: url('images/works/thumbnail/work005_thumb.jpg');"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-sm-4 col-sm-pull-5">
+									<div class="work-item__text work-item__text--right">
+										<h3 class="work-item__title work-item__title--right">Work title for good design stuff</h3>
+										<p class="work-item__intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quisquam reprehenderit perspiciatis minima unde rerum magnam, sit tenetur odio? Est!</p>
+										<a href="#" class="text-btn text-btn--primary text-btn--lg">Show project</a>
+									</div>
+								</div>
+							</div>
+						</div> -->
+					</div>
+					<div class="btn-group btn-group--center">
+						<a href="#" class="btn btn--secondary btn--md wow bounceIn">Back</a>
+					</div>
+				</div>
+			</div>
+			<!-- End work -->
+
+			<!-- Start contact -->
+			<div id="contact" class="contact">
+				<img class="graphic_020" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-grey.svg" alt="">
+				<img class="graphic_021" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-pink-sm.svg" alt="">
+				<img class="graphic_022" data-stellar-ratio="1.5" src="images/parallax_graphic/tri-blue.svg" alt="">
+				<img class="graphic_023 u-xs-hidden" data-stellar-ratio="1.5" src="images/parallax_graphic/dot-blue.svg" alt="">
+				<img class="graphic_024" data-stellar-ratio="1.5" src="images/parallax_graphic/cir-purple-md.svg" alt="">
+				<div class="container">
+					<h2 class="subtitle u-text-center color-white wow bounceInUp">CONTACT</h2>
+					<!-- <form action="" class="form wow fadeInUp">
+						<label for="">Name</label>
+						<input type="text">
+						<div class="row">
+							<div class="col-sm-6">
+								<label for="">Phone</label>
+								<input type="tel">
+							</div>
+							<div class="col-sm-6">
+								<label for="">Email</label>
+								<input type="email">
+							</div>
+						</div>
+						<label for="">Message</label>
+						<textarea name="" id="" cols="30" rows="10"></textarea>
+						<div class="btn-group btn-group--center form__btn-group">
+							<input type="submit" class="btn btn--primary btn--md" value="Send">
+						</div>
+					</form> -->
+					<!-- <div class="divide-text wow fadeIn">information</div> -->
+					<div class="info">
+						<div class="info__email wow bounceInUp">
+							<a href="mailTo:infinite010750@gmail.com">infinite010750@gmail.com</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End contact -->
+			
+		</section>
+		<!-- End main -->
+
+		<!-- Start footer -->
+		<footer class="footer">
+			<div class="container">
+				<p class="final-text">This C.V page is made with HTML5 / CSS3 / JavaScript</p>
+				<p class="copyright">Copyright © 2020 Celia Web design</p>
+			</div>
+		</footer>
+		<!-- End footer -->
+
+	</div>
+
+	<!-- JS -->
+	<script src="js/jquery-2.0.2.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
